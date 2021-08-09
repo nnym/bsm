@@ -1,0 +1,25 @@
+plugins {
+    id("java")
+    id("maven-publish")
+}
+
+group = "net.auoeke"
+version = "0.0.0"
+
+sourceSets {
+    main {
+        java.srcDir("src/main")
+    }
+
+    test {
+        java.srcDir("src/test")
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation("org.junit.jupiter:junit-jupiter:latest.integration")
+}
