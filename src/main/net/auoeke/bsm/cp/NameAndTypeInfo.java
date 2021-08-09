@@ -3,8 +3,8 @@ package net.auoeke.bsm.cp;
 import net.auoeke.bsm.Constants;
 
 public class NameAndTypeInfo implements CPInfo {
-    public char nameIndex;
-    public char descriptorIndex;
+    public int nameIndex;
+    public int descriptorIndex;
 
     @Override
     public byte tag() {

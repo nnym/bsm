@@ -3,8 +3,7 @@ package net.auoeke.bsm.cp;
 import net.auoeke.bsm.Constants;
 
 public class UTF8Info implements CPInfo {
-    public char length;
-    public byte[] bytes;
+    public String value;
 
     @Override
     public byte tag() {

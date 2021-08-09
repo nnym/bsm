@@ -2,9 +2,9 @@ package net.auoeke.bsm.cp;
 
 import net.auoeke.bsm.Constants;
 
-public class InvokeDynamic implements CPInfo {
-    public char bsmAttrIndex;
-    public char nameAndTypeIndex;
+public class InvokeDynamicInfo implements CPInfo {
+    public int bsmAttrIndex;
+    public int nameAndTypeIndex;
 
     @Override
     public byte tag() {

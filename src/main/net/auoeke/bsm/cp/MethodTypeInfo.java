@@ -3,7 +3,7 @@ package net.auoeke.bsm.cp;
 import net.auoeke.bsm.Constants;
 
 public class MethodTypeInfo implements CPInfo {
-    public char descriptorIndex;
+    public int descriptorIndex;
 
     @Override
     public byte tag() {
