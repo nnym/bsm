@@ -35,4 +35,16 @@ public interface Constants {
         int MODULE = 19;
         int PACKAGE = 20;
     }
+
+    interface Ref {
+        int GET_FIELD = 1;
+        int GET_STATIC = 2;
+        int PUT_FIELD = 3;
+        int PUT_STATIC = 4;
+        int INVOKE_VIRTUAL = 5;
+        int INVOKE_STATIC = 6;
+        int INVOKE_SPECIAL = 7;
+        int NEW_INVOKE_SPECIAL = 8;
+        int INVOKE_INTERFACE = 9;
+    }
 }

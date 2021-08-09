@@ -105,20 +105,14 @@ public class ClassFile {
                     case Constants.Constant.LONG -> {
                         var info = new LongInfo();
                         info.value = klass.readLong();
-
                         ++index;
-                        klass.read();
-                        klass.readLong();
 
                         yield info;
                     }
                     case Constants.Constant.DOUBLE -> {
                         var info = new DoubleInfo();
                         info.value = klass.readDouble();
-
                         ++index;
-                        klass.read();
-                        klass.readDouble();
 
                         yield info;
                     }
